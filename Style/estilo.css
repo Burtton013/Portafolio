@@ -1,0 +1,20 @@
+h1{
+    color:brown;
+    font-family: cursive;
+}
+
+h2{
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p{
+    color: rgb(192, 58, 4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
