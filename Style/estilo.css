@@ -8,8 +8,9 @@ body {
 div {
     background-color:#79E0EE ;
     padding: 10px 20px 30px 40px;
-    border: 3px solid #D22779;
+    border: 3px double #D22779;
     margin: 20px 60px 10px 50px;
+    ;
 }
 h1{
     font-size: 2em;
@@ -17,8 +18,9 @@ h1{
     text-decoration: overline;
 }
 h3{
-    color: #A459D1;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
     text-align:center;
 }
 .links {
@@ -29,6 +31,10 @@ h3{
 }
 
 #u-list{
+    list-style-type: none;
+
+}
+#o-list{
     list-style-type: none;
 }
 .main-container {
@@ -46,4 +52,14 @@ img:hover {
     border-radius: 100px;
     transform: scale(1.1);
     transition: 1s;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #B8F1B0;
+    border: 3px dashed #3F0071;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    text-overflow: initial;
+    word-wrap: keep-all;
+    margin: 1px 11px 11px 1px;
 }
