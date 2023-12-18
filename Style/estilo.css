@@ -1,58 +1,81 @@
 body {
-    background-color:#FFB84C;
+
+    background-color:#191825;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    cursor: no-drop;
-}
+    cursor: url(./imagenes/cursor/cbrpnk1pointer.png) auto;
+    
+    }
+    #a-list{
+        list-style-image: url(./imagenes/iconos/arasaka.png);
+    }
+    form{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    input{
+        text-align: right;
+    }
 
 div {
     background-color:#79E0EE ;
     padding: 10px 20px 30px 40px;
-    border: 3px double #D22779;
+    border: 3px double #C70039;
     margin: 20px 60px 10px 50px;
-    ;
+    
 }
 h1{
     font-size: 2em;
     text-align: center;
     text-decoration: overline;
+    color: #FFF323;
 }
+
 h3{
-    color: black;
+    color: #FFF323;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     text-align:center;
 }
+
 .links {
  color: #F0134D
 }
+
 .red{
     text-decoration:wavy;
 }
 
 #u-list{
+    list-style-image: url(./imagenes/iconos/Icono1.png);
     list-style-type: none;
+}
 
-}
 #o-list{
-    list-style-type: none;
+    list-style-image: url(./imagenes/iconos/Icono2.png);
 }
+
 .main-container {
-    background-color: #F3CCFF;
+    background-color: #BE3144;
     width: 50%;
     height: 150vw;
     overflow: hidden;
+    
 }
 a:hover{
     color:#FF5722;
     font-size: 1.5em;
-    border: 2px dotted black;
+    border: 2px dotted black; 
+    cursor: url(./imagenes/cursor/cbrpnk2hover.png) auto;
 }
+
 img:hover {
     border-radius: 100px;
     transform: scale(1.1);
     transition: 1s;
 }
+
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #B8F1B0;
